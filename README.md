@@ -2,7 +2,7 @@
 
 ## The API
 
-setNewSeed(int):<br />  
+setNewSeed(int newSeed):<br />  
 	Rebuild the permutations array using the built in psudo random number geneartor
 
 eval2D(float x, float y)<br />  
@@ -34,7 +34,6 @@ Generating a texture using 2D OpenSimplex noise
 		for y in range(0, size):
 			noise = $OpenSimplexNoise.eval2D(x / featureSize, y / featureSize)
 			value = inverse_lerp(-1, 1, noise)*255
-			print(noise, " ", value)
 			rawData.append(value)
 			rawData.append(value)
 			rawData.append(value)
