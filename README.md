@@ -2,17 +2,17 @@
 
 ## The API
 
-setNewSeed(int newSeed):<br />  
-	Rebuild the permutations array using the built in psudo random number geneartor
+**setNewSeed**(int newSeed):<br />  
+	Rebuild the permutations array using the built in psudo random number geneartor with the given seed
 
-eval2D(float x, float y)<br />  
-	Returns the noise value at a postion (x, y)
+**eval2D**(float x, float y)<br />  
+	Returns the noise value between -1 and 1 at a postion (x, y)
 
-eval3D(float x, float y, float z)<br />  
-	Returns the noise value at a position (x, y, z)
+**eval3D**(float x, float y, float z)<br />  
+	Returns the noise value between -1 and 1 at a position (x, y, z)
 
-eval4D(float x, float y, float z, float w)<br />  
-	Return the noise value at a position (x, y, z, w)
+**eval4D**(float x, float y, float z, float w)<br />  
+	Returns the noise value between -1 and 1 at a position (x, y, z, w)
 
 
 ## Example Usage
