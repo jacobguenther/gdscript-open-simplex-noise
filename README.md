@@ -2,16 +2,16 @@
 
 ## The API
 
-setNewSeed(int):
+setNewSeed(int):<br />  
 	Rebuild the permutations array using the built in psudo random number geneartor
 
-eval2D(float x, float y)
+eval2D(float x, float y)<br />  
 	Returns the noise value at a postion (x, y)
 
-eval3D(float x, float y, float z)
+eval3D(float x, float y, float z)<br />  
 	Returns the noise value at a position (x, y, z)
 
-eval4D(float x, float y, float z, float w)
+eval4D(float x, float y, float z, float w)<br />  
 	Return the noise value at a position (x, y, z, w)
 
 
@@ -19,7 +19,7 @@ eval4D(float x, float y, float z, float w)
 
 Generating a texture using 2D OpenSimplex noise
 
-- Create a node with the code in it below.
+- Create a node with a script attached and add the code below to it.
 - Attach OpenSimplexNoise.gd to a child node and run the scene
 
 ```
