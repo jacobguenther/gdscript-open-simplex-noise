@@ -22,7 +22,7 @@ Generating a texture using 2D OpenSimplex noise
 - Create a node with the code in it below.
 - Attach OpenSimplexNoise.gd to a child node and run the scene
 
-'''
+```
 	var size = 128
 	var pathToImage = "res://noise.png"
 	var featureSize = 24.0
@@ -42,7 +42,7 @@ Generating a texture using 2D OpenSimplex noise
 	var image = Image.new()
 	image.create_from_data(size, size, false, 4, rawData)
 	image.save_png(pathToImage)
-'''
+```
 
 
 
