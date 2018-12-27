@@ -759,7 +759,7 @@ func eval3D(x, y, z):
 		var attn3 = 2 - dx3 * dx3 - dy3 * dy3 - dz3 * dz3
 		if attn3 > 0:
 			attn3 *= attn3
-			value += attn3 * attn3 * self.extrapolate3D(xsb + 0, ysb + 0, zsb + 1, dx3, dy3, dz3)
+			value += attn3 * attn3 * self._extrapolate3D(xsb + 0, ysb + 0, zsb + 1, dx3, dy3, dz3)
 
 		# Contribution (1,1,0)
 		var dx4 = dx0 - 1 - 2 * SQUISH_CONSTANT_3D
